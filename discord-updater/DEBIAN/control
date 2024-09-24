@@ -1,0 +1,8 @@
+Package: discord-updater
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: Your Name <your.email@example.com>
+Description: A script to update Discord automatically

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Discord Updater
+Comment=Update Discord to the latest version
+Exec=/usr/local/bin/discord-updater.sh
+Terminal=false
+Icon=discord
