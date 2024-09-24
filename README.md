@@ -1,7 +1,7 @@
-# Ubuntu Discord Auto-Updater
+# Discord Auto-Updater
 
 
-This project provides a simple way to automatically update Discord on Ubuntu. It includes a Debian package that installs a script to check for updates and update Discord if necessary.
+This project provides a simple way to automatically update [Discord](https://discord.com/) on [Ubuntu](https://ubuntu.com/) and other [Debian-based Linux distributions](https://en.wikipedia.org/wiki/Category:Debian-based_distributions). It includes a Debian package that installs a script to check for updates and update Discord if necessary.
 
 
 ## Features
