@@ -54,6 +54,10 @@ You can either build the Debian package or download the pre-built `.deb` file fr
 
 The updater script runs automatically at startup, and can also be run manually.
 
+### Automatic Update
+
+
+The package includes a `.desktop` file that sets the updater to run automatically at startup. This file is installed to `/usr/share/applications/` and ensures the updater runs each time you log in.
 
 ### Manual Update
 
@@ -79,12 +83,6 @@ To manually check for updates and update Discord, you can:
     /usr/local/bin/discord-updater.sh --force
     ```
 
-
-### Automatic Update
-
-
-The package includes a `.desktop` file that sets the updater to run automatically at startup. This file is installed to `/usr/share/applications/` and ensures the updater runs each time you log in.
-
 ## Disclaimer
 
 
@@ -93,4 +91,4 @@ I, the maintainer of this project, have no affiliation or relationship with Disc
 ## License
 
 
-This project is licensed under the [LICENSE](LICENSE).
+This project is licensed under the [MIT LICENSE](LICENSE).
