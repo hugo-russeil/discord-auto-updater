@@ -4,5 +4,5 @@ Section: base
 Priority: optional
 Architecture: all
 Depends: bash
-Maintainer: Your Name <your.email@example.com>
+Maintainer: Hugo Russeil
 Description: A script to update Discord automatically
