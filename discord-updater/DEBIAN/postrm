@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Post-removal script for the Discord Updater package, cleaning up the autostart feature
+
+# Set the autostart file name and path
+AUTOSTART_FILE_NAME="discord-updater-autostart.desktop"
+AUTOSTART_FILE_PATH="${HOME}/.config/autostart/${AUTOSTART_FILE_NAME}"
+
+# Remove the autostart file if it exists
+if [ -f "${AUTOSTART_FILE_PATH}" ]; then
+  echo "Removing autostart file..."
+  rm "${AUTOSTART_FILE_PATH}"
+  echo "Autostart file removed from ${AUTOSTART_FILE_PATH}"
+fi
