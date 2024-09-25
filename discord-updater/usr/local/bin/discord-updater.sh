@@ -27,17 +27,13 @@ if [ "$1" == "--force" ]; then # Implemented this because snap somehow doesn't a
     update
     exit 0
 else
-
     # Else, check if the installed version is the latest
     # Compare the versions and checks if the installed version is at least the same as the latest version
     if [[ "$(printf '%s\n' "$installed_version" "$latest_version" | sort -V | head -n 1)" != "$installed_version" ]]; then
         echo "Discord is up to date."
-        discord > /dev/null 2>&1 &
     # Updating Discord
     else
         echo "Discord is not up to date. Installed version: $installed_version, Latest version: $latest_version"
         update
-        discord > /dev/null 2>&1 &
-        
     fi
 fi
